@@ -16,7 +16,7 @@ document.querySelectorAll('.nav-link, #discoverMore').forEach(link => {
 
 // TOS Button (Ensure there's an element with the correct ID in HTML)
 document.getElementById('tosButton').addEventListener('click', function() {
-    window.open('./tos/index.html', '_self');  // Opens the link in the same tab
+    window.open('./tos', '_self');  // Opens the link in the same tab
 });
 
 // Prevent default behavior for all anchor links EXCEPT TOS and Join Now
